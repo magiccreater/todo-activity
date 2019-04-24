@@ -6,6 +6,10 @@ clone the directory
 
 composer install
 
+cp .env.example .env
+
+update database credential in .env file
+
 php artisan migrate
 
 php artisan db:seed
